@@ -1,24 +1,38 @@
 export default function Card() {
   return (
-    <div className="img-container">
+    <div className="container">
       <div className="content">
-        <section>
-          <h2>style points</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
-            voluptate necessitatibus, iste assumenda nemo vel voluptatibus
-            deserunt fugiat dolore id atque officia sit, est reprehenderit
-            error, perspiciatis ea ex aperiam.
-          </p>
+        <section className="img-section">
+          <img
+            src="./images/hivecoin.png"
+            alt="hivecoin"
+            className="thumbnail"
+          />
         </section>
-        <section>
-          <h2>amazing stuff</h2>
+        <section className="info">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
-            voluptate necessitatibus, iste assumenda nemo vel voluptatibus
-            deserunt fugiat dolore id atque officia sit, est reprehenderit
-            error, perspiciatis ea ex aperiam.
+            UI for a crypto wallet, hivecoin, using react js, scss, reactstrap
+            and react router.
           </p>
+          <div className="links">
+            <a
+              href="https://github.com/manikagnish/hivecoin"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/github.svg" alt="github" />
+              <p>Github repo</p>
+            </a>
+
+            <a
+              href="https://manikagnish.com/hivecoin/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/external-link.svg" alt="link to website" />
+              <p>live website</p>
+            </a>
+          </div>
         </section>
       </div>
       <div className="cursor"></div>
