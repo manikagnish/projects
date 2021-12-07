@@ -195,3 +195,31 @@ section {
     transform: translateY(0);
   }
 }
+
+.pagination-nav {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+.page-link {
+  background-color: #fff;
+  padding: 1em;
+  color: #3f3fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.page-link:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.page-link.active {
+  background-color: #3f3fff;
+  color: #fff;
+}

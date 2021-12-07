@@ -3,7 +3,7 @@ import Grid from "./components/Grid";
 function App() {
   return (
     <div>
-      <h1>My projects</h1>
+      <h1>My work</h1>
       <Grid />
     </div>
   );

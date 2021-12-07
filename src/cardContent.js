@@ -80,4 +80,13 @@ export const cardContent = [
     github: "https://github.com/manikagnish/ticTacToe",
     website: "https://manikagnish.com/ticTacToe/",
   },
+  {
+    id: 10,
+    title: "tic tac toe",
+    thumbnail: "./images/themeswitcher.jpg",
+    description:
+      "A social media dashboard with an ability to switch theme using react styled-components and context api.",
+    github: "https://github.com/manikagnish/ticTacToe",
+    website: "https://manikagnish.com/ticTacToe/",
+  },
 ];
