@@ -18,7 +18,7 @@ const Pagination = ({ currentPage, totalProjects, paginate }) => {
               paginate(currentPage > 0 ? currentPage - 1 : currentPage);
               setActive(currentPage - 1);
             }}
-            href="!#"
+            href="/#"
             className="page-link"
           >
             &larr; Prev
@@ -31,7 +31,7 @@ const Pagination = ({ currentPage, totalProjects, paginate }) => {
                 paginate(number);
                 setActive(index);
               }}
-              href="!#"
+              href="/#"
               className={active === index ? "page-link active" : "page-link"}
             >
               {number + 1}
@@ -46,7 +46,7 @@ const Pagination = ({ currentPage, totalProjects, paginate }) => {
               );
               setActive(currentPage + 1);
             }}
-            href="!#"
+            href="/#"
             className="page-link"
           >
             next &rarr;
