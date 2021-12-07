@@ -228,3 +228,11 @@ img {
   background-color: #3f3fff;
   color: #fff;
 }
+
+.preloader {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
