@@ -11,10 +11,11 @@ html {
 body {
   font-size: 1.4rem;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Poppins", sans-serif;
   background-image: url("./bg3.png");
   color: #fff;
+  padding: 2em 0;
 }
 
 img,
@@ -86,6 +87,14 @@ section {
 
 .info {
   padding: 1em 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .links {
