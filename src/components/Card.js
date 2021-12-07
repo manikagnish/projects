@@ -1,34 +1,25 @@
-export default function Card() {
+export default function Card({
+  title,
+  description,
+  thumbnail,
+  github,
+  website,
+}) {
   return (
     <div className="container">
       <div className="content">
         <section className="img-section">
-          <img
-            src="./images/hivecoin.png"
-            alt="hivecoin"
-            className="thumbnail"
-          />
+          <img src={thumbnail} alt={title} className="thumbnail" />
         </section>
         <section className="info">
-          <p>
-            UI for a crypto wallet, hivecoin, using react js, scss, reactstrap
-            and react router.
-          </p>
+          <p>{description}</p>
           <div className="links">
-            <a
-              href="https://github.com/manikagnish/hivecoin"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={github} target="_blank" rel="noreferrer">
               <img src="./images/github.svg" alt="github" />
               <p>Github repo</p>
             </a>
 
-            <a
-              href="https://manikagnish.com/hivecoin/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={website} target="_blank" rel="noreferrer">
               <img src="./images/external-link.svg" alt="link to website" />
               <p>live website</p>
             </a>
