@@ -22,7 +22,7 @@ export const cardContent = [
     title: "natours",
     thumbnail: "./images/natours.png",
     description:
-      "Fully responsive landing page for a natours, a trip planning company. Built using html and scss.",
+      "Fully responsive landing page for natours, a trip planning company. Built using html and scss.",
     github: "https://github.com/manikagnish/natours",
     website: "https://manikagnish.com/natours/",
   },

@@ -21,7 +21,7 @@ const Pagination = ({ currentPage, totalProjects, paginate }) => {
             href="/projects/#"
             className="page-link"
           >
-            &larr; Prev
+            &larr; prev
           </a>
         </li>
         {pageNumbers.map((number, index) => (
