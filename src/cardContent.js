@@ -73,12 +73,12 @@ export const cardContent = [
   },
   {
     id: 9,
-    title: "tic tac toe",
-    thumbnail: "./images/themeswitcher.jpg",
+    title: "todo list app",
+    thumbnail: "./images/todo-list-app.jpg",
     description:
-      "A social media dashboard with an ability to switch theme using react styled-components and context api.",
-    github: "https://github.com/manikagnish/ticTacToe",
-    website: "https://manikagnish.com/ticTacToe/",
+      "Created a todo list app using cra-5, context api, useReducer, beautiful dnd, localStorage and tailwind.",
+    github: "https://github.com/manikagnish/todo-list-app",
+    website: "https://manikagnish.com/todo-list-app/",
   },
   {
     id: 10,
