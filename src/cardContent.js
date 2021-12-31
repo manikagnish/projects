@@ -64,12 +64,12 @@ export const cardContent = [
   },
   {
     id: 8,
-    title: "huddle landing page",
-    thumbnail: "./images/huddle.jpg",
+    title: "country search app",
+    thumbnail: "./images/country-search-app.jpg",
     description:
-      "UI for a crypto wallet, hivecoin, using react js, scss, reactstrap and react router.",
-    github: "https://github.com/manikagnish/huddle-landing-page",
-    website: "https://manikagnish.com/huddle-landing-page",
+      "REST Countries API with color theme switcher challenge hub. Using react.js, axios and tailwind.",
+    github: "https://github.com/manikagnish/country-search-app",
+    website: "https://manikagnish.com/country-search-app",
   },
   {
     id: 9,
@@ -82,6 +82,15 @@ export const cardContent = [
   },
   {
     id: 10,
+    title: "huddle landing page",
+    thumbnail: "./images/huddle.jpg",
+    description:
+      "UI for a crypto wallet, hivecoin, using react js, scss, reactstrap and react router.",
+    github: "https://github.com/manikagnish/huddle-landing-page",
+    website: "https://manikagnish.com/huddle-landing-page",
+  },
+  {
+    id: 11,
     title: "tic tac toe",
     thumbnail: "./images/themeswitcher.jpg",
     description:
